@@ -71,33 +71,41 @@ OUTPUT_SETS = {
 }
 
 RULES = [
-    ('sedikit', 'sempit', 'pendek', 'sedang'),
-    ('sedikit', 'sempit', 'sedang', 'lama'),
-    ('sedikit', 'sempit', 'panjang', 'lama'),
-    ('sedikit', 'sedang', 'pendek', 'sedang'),
-    ('sedikit', 'sedang', 'sedang', 'lama'),
-    ('sedikit', 'sedang', 'panjang', 'lama'),
+    ('sedikit', 'sempit', 'pendek', 'lama'),
+    ('sedikit', 'sempit', 'sedang', 'sedang'),
+    ('sedikit', 'sempit', 'panjang', 'cepat'),
+    
+    ('sedikit', 'sedang', 'pendek', 'lama'),
+    ('sedikit', 'sedang', 'sedang', 'sedang'),
+    ('sedikit', 'sedang', 'panjang', 'sedang'),
+    
     ('sedikit', 'lebar', 'pendek', 'lama'),
     ('sedikit', 'lebar', 'sedang', 'lama'),
-    ('sedikit', 'lebar', 'panjang', 'lama'),
-    ('sedang', 'sempit', 'pendek', 'cepat'),
+    ('sedikit', 'lebar', 'panjang', 'sedang'),
+
+    ('sedang', 'sempit', 'pendek', 'sedang'),
     ('sedang', 'sempit', 'sedang', 'cepat'),
-    ('sedang', 'sempit', 'panjang', 'sedang'),
-    ('sedang', 'sedang', 'pendek', 'cepat'),
+    ('sedang', 'sempit', 'panjang', 'cepat'),
+    
+    ('sedang', 'sedang', 'pendek', 'sedang'),
     ('sedang', 'sedang', 'sedang', 'sedang'),
-    ('sedang', 'sedang', 'panjang', 'sedang'),
-    ('sedang', 'lebar', 'pendek', 'sedang'),
+    ('sedang', 'sedang', 'panjang', 'cepat'),
+    
+    ('sedang', 'lebar', 'pendek', 'lama'),
     ('sedang', 'lebar', 'sedang', 'sedang'),
-    ('sedang', 'lebar', 'panjang', 'lama'),
+    ('sedang', 'lebar', 'panjang', 'sedang'),
+
     ('banyak', 'sempit', 'pendek', 'cepat'),
     ('banyak', 'sempit', 'sedang', 'cepat'),
     ('banyak', 'sempit', 'panjang', 'cepat'),
-    ('banyak', 'sedang', 'pendek', 'cepat'),
+    
+    ('banyak', 'sedang', 'pendek', 'sedang'),
     ('banyak', 'sedang', 'sedang', 'cepat'),
-    ('banyak', 'sedang', 'panjang', 'sedang'),
-    ('banyak', 'lebar', 'pendek', 'cepat'),
-    ('banyak', 'lebar', 'sedang', 'cepat'),
-    ('banyak', 'lebar', 'panjang', 'sedang'),
+    ('banyak', 'sedang', 'panjang', 'cepat'),
+    
+    ('banyak', 'lebar', 'pendek', 'sedang'),
+    ('banyak', 'lebar', 'sedang', 'sedang'),
+    ('banyak', 'lebar', 'panjang', 'cepat'),
 ]
 
 
